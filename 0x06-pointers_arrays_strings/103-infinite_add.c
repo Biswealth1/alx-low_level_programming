@@ -5,13 +5,16 @@
 * @n2: Second number
 * @r: result buffer
 * @size_r: result buffer size
-* Return: 0 if the result can not be stored in r,otherwise a pointer to the result
+* Return: 0 if the result can not be stored in r,
+* otherwise a pointer to the result
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 int i, j, k, l, m, n;
-for (i = 0; n1[i]; i++);
-for (j = 0; n2[j]; j++);
+for (i = 0; n1[i]; i++)
+;
+for (j = 0; n2[j]; j++)
+;
 if (i > size_r || j > size_r)
 return (0);
 m = 0;
