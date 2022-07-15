@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+* Write your code
+* Always rember
+*/ 
 int main(void)
 {
 int n;
@@ -7,7 +11,7 @@ int *p;
 a[2] = 1024;
 p = &n;
 /**
-* write your line of code here...
+* Write your line of code here...
 * Remember:
 * - you are not allowed to use
 * - you are not allowed to modify
